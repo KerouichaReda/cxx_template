@@ -5,7 +5,7 @@ project(project LANGUAGES CXX)
 ## TESTING
 
 #ENABLE_TESTING()
-#find_package(GTest CONFIG REQUIRED
+#find_package(GTest CONFIG REQUIRED)
 
 
 # Set Source Header_Files

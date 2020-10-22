@@ -10,6 +10,6 @@ int main(int argc, char** argv) {
 
 
 TEST(Test1, return_zero) {	
-
+	int result=0;
 	ASSERT_EQ(result, 0);
 }
