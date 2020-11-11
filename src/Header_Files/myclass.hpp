@@ -1,11 +1,11 @@
 #ifndef MYCLASS_HPP
 #define MYCLASS_HPP
 
-class myclass
+class MyClass
 {
 public:
-    myclass(/* args */);
-    ~myclass();
+    MyClass(/* args */);
+    ~MyClass();
 private:
     /* data */
     

@@ -1,10 +1,10 @@
 #include "../Header_Files/myclass.hpp"
 
-myclass::myclass(/* args */){
+MyClass::MyClass(/* args */){
 
 }
 
-myclass::~myclass(){
+MyClass::~MyClass(){
 
 }
 
