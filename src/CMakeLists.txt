@@ -10,16 +10,16 @@ project(project LANGUAGES CXX)
 
 # Set Source Header_Files
 SET(PROJECT_SOURCE_FILES
-Source_Files/myclass.cpp
+source_files/myclass.cpp
 main.cpp
 )
 
 # Set Header_Files
 SET(PROJECT_HEADER_FILES
-Header_Files/myclass.hpp
+header_files/myclass.hpp
 )
 
 ADD_EXECUTABLE(main ${PROJECT_SOURCE_FILES} ${PROJECT_HEADER_FILES})
 
-#ADD_SUBDIRECtORY(Test_Files)
+#ADD_SUBDIRECtORY(test_files)
 

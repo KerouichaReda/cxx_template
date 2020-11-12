@@ -1,4 +1,4 @@
-#include "../Header_Files/myclass.hpp"
+#include "../header_files/myclass.hpp"
 
 MyClass::MyClass(/* args */){
 

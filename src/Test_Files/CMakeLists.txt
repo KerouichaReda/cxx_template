@@ -1,13 +1,9 @@
 cmake_minimum_required(VERSION 3.14)
 
-
-
 set(PROJECT_SOURCE_FILES
     myclass_test.cpp)
 
 ADD_EXECUTABLE(MyClass_Test ${PROJECT_SOURCE_FILES})
-
-
 
  target_link_libraries( MyClass_Test PRIVATE
  GTest::gmock
@@ -17,8 +13,6 @@ ADD_EXECUTABLE(MyClass_Test ${PROJECT_SOURCE_FILES})
 
  )
  enable_testing()
-
-
 
 ADD_TEST(
     NAME project_test
