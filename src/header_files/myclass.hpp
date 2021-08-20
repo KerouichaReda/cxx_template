@@ -1,6 +1,6 @@
 #ifndef MYCLASS_HPP
 #define MYCLASS_HPP
-
+/// @brief MyClass Class
 class MyClass
 {
 public:
@@ -8,6 +8,7 @@ public:
     ~MyClass();
 private:
     /* data */
+    int element; ///< This is a private variable member
     
 };
 
