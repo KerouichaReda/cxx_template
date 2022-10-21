@@ -1,5 +1,5 @@
 /**
-* @file main.cpp
+* \file main.cpp
 * contain the main function
 */
 #include<iostream>
