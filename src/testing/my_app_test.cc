@@ -1,7 +1,5 @@
 #include<gtest/gtest.h>
 
-#include"../Header_Files/myclass.hpp"
-#include"../Source_Files/myclass.cpp"
 
 int main(int argc, char** argv) {
 	

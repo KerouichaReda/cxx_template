@@ -1,15 +1,15 @@
 cmake_minimum_required(VERSION 3.14)
 
-
+find_package(GTest CONFIG REQUIRED)
 
 set(PROJECT_SOURCE_FILES
-    myclass_test.cc)
+    my_app_test.cc)
 
-ADD_EXECUTABLE(MyClass_Test ${PROJECT_SOURCE_FILES})
+ADD_EXECUTABLE(testing ${PROJECT_SOURCE_FILES})
 
 
 
- target_link_libraries( MyClass_Test PRIVATE
+ target_link_libraries( testing PRIVATE
  GTest::gmock
  GTest::gtest
  GTest::gmock_main
