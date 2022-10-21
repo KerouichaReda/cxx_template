@@ -18,6 +18,10 @@ SET(PROJECT_HEADER_FILES
 my_app.h
 )
 
+SET(PROJECT_RESOURCE_FILES 
+../../.clang-format
+)
+
 ## TARGET LINK LIBRARIES
 
 
